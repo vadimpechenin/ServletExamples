@@ -30,4 +30,13 @@
         <servlet-name>GetCookiesServlet</servlet-name>
         <url-pattern>/getcookies</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DateServlet</servlet-name>
+        <servlet-class>com.getpost.DateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DateServlet</servlet-name>
+        <url-pattern>/date</url-pattern>
+    </servlet-mapping>
 </web-app>
