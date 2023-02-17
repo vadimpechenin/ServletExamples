@@ -18,6 +18,9 @@ public class MainServlet extends HttpServlet{
         PrintWriter pw = response.getWriter();
         pw.println("<B>Get: The selected color is: ");  //Выбранный цвет
         pw.println(color);
+        pw.println("<ul class=\"submenu\">");
+        pw.println("<li><a href=\"ColorGet.html\">to color get form</a></li>");
+        pw.println("</ul>");
         pw.close();
         //RequestDispatcher dispatcher = request.getRequestDispatcher("/testtt.html");
         //dispatcher.forward(request, response);
@@ -29,6 +32,9 @@ public class MainServlet extends HttpServlet{
         PrintWriter pw = response.getWriter();
         pw.println("<B>Post: The selected color is: ");  //Выбранный цвет
         pw.println(color);
+        pw.println("<ul class=\"submenu\">");
+        pw.println("<li><a href=\"ColorPost.html\">to color post form</a></li>");
+        pw.println("</ul>");
         pw.close();
     }
 }

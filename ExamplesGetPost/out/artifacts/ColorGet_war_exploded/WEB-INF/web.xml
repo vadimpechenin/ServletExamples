@@ -12,4 +12,22 @@
         <servlet-name>MainServlet</servlet-name>
         <url-pattern>/color</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddCookieServlet</servlet-name>
+        <servlet-class>com.getpost.AddCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCookieServlet</servlet-name>
+        <url-pattern>/addcookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <servlet-class>com.getpost.GetCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <url-pattern>/getcookies</url-pattern>
+    </servlet-mapping>
 </web-app>
