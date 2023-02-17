@@ -1,5 +1,6 @@
 package com.getpost;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -18,6 +19,8 @@ public class MainServlet extends HttpServlet{
         pw.println("<B>Get: The selected color is: ");  //Выбранный цвет
         pw.println(color);
         pw.close();
+        //RequestDispatcher dispatcher = request.getRequestDispatcher("/testtt.html");
+        //dispatcher.forward(request, response);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
