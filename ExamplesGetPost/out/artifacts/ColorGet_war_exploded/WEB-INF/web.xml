@@ -12,4 +12,13 @@
         <servlet-name>ColorGetServlet</servlet-name>
         <url-pattern>/colorget</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ColorPostServlet</servlet-name>
+        <servlet-class>com.getpost.ColorPostServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ColorPostServlet</servlet-name>
+        <url-pattern>/colorpost</url-pattern>
+    </servlet-mapping>
 </web-app>
