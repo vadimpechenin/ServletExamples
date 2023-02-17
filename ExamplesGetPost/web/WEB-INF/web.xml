@@ -5,20 +5,11 @@
          version="4.0">
     <display-name>Examples of get post servlet</display-name>
     <servlet>
-        <servlet-name>ColorGetServlet</servlet-name>
-        <servlet-class>com.getpost.ColorGetServlet</servlet-class>
+        <servlet-name>MainServlet</servlet-name>
+        <servlet-class>com.getpost.MainServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ColorGetServlet</servlet-name>
-        <url-pattern>/colorget</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>ColorPostServlet</servlet-name>
-        <servlet-class>com.getpost.ColorPostServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ColorPostServlet</servlet-name>
-        <url-pattern>/colorpost</url-pattern>
+        <servlet-name>MainServlet</servlet-name>
+        <url-pattern>/color</url-pattern>
     </servlet-mapping>
 </web-app>
